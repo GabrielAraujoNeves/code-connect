@@ -3,6 +3,7 @@ import { Avatar } from "../Avatar"
 import styles from './cardpost.module.css'
 import Link from "next/link"
 
+//ajustdo 
 export const CardPost = ({ post, highlight }) => {
    return (
       <Link href={`/posts/${post.slug}`} className={styles.link}>
